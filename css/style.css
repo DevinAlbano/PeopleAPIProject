@@ -1,0 +1,64 @@
+/* Clean the basic element spacing */
+body, h1, h2, h3, button, input {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New'
+}
+
+/* Padding all 4px */
+.pa-4px {
+  padding: 4px;
+}
+
+.pa-8px {
+  padding: 4px;
+}
+
+.ma-4px {
+  margin: 4px;
+}
+
+.bordered {
+  border-width: 1px;
+  border-color: #999;
+  border-style: solid;
+}
+
+button {
+  padding: 4px;
+}
+
+input {
+  padding: 4px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-items-center {
+  align-items: center;
+}
+
+.flex-content-center {
+  align-content: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.width-480px {
+  width: 480px;
+}
+.width-128px {
+  width: 128px;
+}
