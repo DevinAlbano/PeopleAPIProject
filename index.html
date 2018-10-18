@@ -4,41 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <title>People API: litbug.net</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
 </head>
 
 <body>
-  <div class="masthead"></div>
-  <div class="mainContent">
-    <section class="flex flex-column flex-items-center pa-4px">
-    <section class="flex flex-column flex-items-center width-480px bordered pa-8px">
-      <section class="pa-4px flex flex-column flex-items-center">
-        <h3>People API</h3>
+  <div class="grid-container">
+    <div class="masthead"></div>
+    <div class="mainContent">
+      <section class="flex flex-column flex-items-center pa-4px">
+      <section class="flex flex-column flex-items-center width-480px bordered pa-8px">
+        <section class="pa-4px flex flex-column flex-items-center">
+          <h3>People API</h3>
+        </section>
+        <section class="pa-4px">
+          <input id="name" onkeypress="enterAddPerson(event)">
+          <input id="age"  onkeypress="enterAddPerson(event)">
+          <button onclick="addPerson()">Add Person</button>
+        </section>
+        <section class="pa-4px">
+          <button onclick="showPeople()">Show People</button>
+          <button onclick="clearPeople()">Clear People</button>
+        </section>
+        <div id="people"></div>
       </section>
-      <section class="pa-4px">
-        <input id="name" onkeypress="enterAddPerson(event)">
-        <input id="age"  onkeypress="enterAddPerson(event)">
-        <button onclick="addPerson()">Add Person</button>
-      </section>
-      <section class="pa-4px">
-        <button onclick="showPeople()">Show People</button>
-        <button onclick="clearPeople()">Clear People</button>
-      </section>
-      <div id="people"></div>
     </section>
-  </section>
+    </div>
+    <div class="footer"></div>
   </div>
-  <div class="footer"></div>
 
-    <script  src="js/index.js"></script>
-
-
-
+  <script  src="js/index.js"></script>
 
 </body>
 

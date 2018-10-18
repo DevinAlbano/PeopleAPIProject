@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'masthead'
+    'mainContent'
+    'footer';
+}
+
+.masthead {
+    height: 20vh;
+    grid-area: masthead;
+}
+
+.mainContent {
+    height: auto;
+    grid-area: mainContent;
+}
+
+.footer {
+    height: 20vh;
+    grid-area: footer;
+}
