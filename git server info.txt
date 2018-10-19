@@ -1,0 +1,12 @@
+lemme find the info
+ima figure it out by forking yours and trying to make the page
+because I can't fucking read right now drank too much guaro
+yeah go to settings
+and you can set a branch to represent your page
+let me see if it works lmao
+fuck yeah it works
+History is off. Messages may disappear before people see them. Conversations with no messages may disappear.
+https://rohins.github.io/PeopleAPIProject/
+when you go to settings and set the branch for the website
+just go to
+https://{github_username}.github.io/{repository_name}
