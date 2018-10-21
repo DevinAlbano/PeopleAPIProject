@@ -5,6 +5,23 @@ body, h1, h2, h3, button, input {
   font-family: 'Courier New'
 }
 
+/*  Global Styles */
+
+:root{
+/*Color Palette*/
+  --primary-color-light: #D5DFE5;
+  --primary-color-dark: #2D4654;
+  --primary-accent-dark: #73628A;
+  --primary-accent-light: #FFCAD4;
+  --secondary-accent-light: #B6D094;
+
+/* Global Colors*/
+  background-color: var(--secondary-accent-light)
+}
+
+
+
+
 /* Padding all 4px */
 .pa-4px {
   padding: 4px;
@@ -20,7 +37,7 @@ body, h1, h2, h3, button, input {
 
 .bordered {
   border-width: 1px;
-  border-color: #999;
+  border-color: var(--primary-accent-dark);
   border-style: solid;
 }
 
@@ -61,4 +78,23 @@ input {
 }
 .width-128px {
   width: 128px;
+}
+
+/* People Display Styles */ 
+
+ol {
+  border: var(--primary-accent-dark) 2px solid;
+  background-color: var(--primary-color-dark);
+}
+
+li {
+  background-color: var(--primary-accent-dark);
+  padding: 8px;
+}
+li:nth-child(even){
+  background-color:var(--primary-color-light);
+}
+
+#mainUI {
+  background-color: var(--primary-accent-light);
 }
